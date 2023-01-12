@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.square{
+    
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+.o{
+    position: relative;
+
+}
+
+.o::after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.x{
+    position: relative;
+
+}
+
+.x::after{
+    position: absolute;
+    content: "\2716";
+    font-size: 55px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight:bolder;
+
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 00.25rem;
+
+    font-size: 1rem;
+
+
+}
